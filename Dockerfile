@@ -11,7 +11,7 @@ COPY requirements.txt /app/backend
 
 # Install app dependencies
 # RUN pip install mysqlclient
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install -r requirements.txt
 
 COPY . /app/backend
 
